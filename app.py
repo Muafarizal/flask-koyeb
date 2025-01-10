@@ -9,7 +9,7 @@ db = connector.connect (
     user    = 'dbflask_whocommand',
     port    = '3305',
     password= 'f8e079df4d61f1daa635d9c5bf0ebb93cbaaecd4',
-    database= 'dbflask_whocommand',
+    database= 'dbflask_whocommand'
 )
 
 if db.is_connected():
