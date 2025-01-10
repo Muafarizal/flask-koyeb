@@ -5,7 +5,7 @@ from mysql import connector
 app = Flask(__name__)
 
 db = connector.connect (
-    host = 'qdg0e.h.filess.io', 
+    host = 'bp-tu.h.filess.io', 
     user    = 'dbflask_whocommand',
     port    = '3305',
     password= 'f8e079df4d61f1daa635d9c5bf0ebb93cbaaecd4',
